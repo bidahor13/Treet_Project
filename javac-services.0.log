@@ -1,6 +1,6 @@
-INFO	?	main	2016-09-27T20:00:26.392Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
-INFO	?	main	2016-09-27T20:00:26.669Z	org.javacs.JavaLanguageServer#doLint	Lint c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
-SEVERE	?	main	2016-09-27T20:00:26.675Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+INFO	?	main	2016-09-27T20:04:02.658Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	main	2016-09-27T20:04:03.052Z	org.javacs.JavaLanguageServer#doLint	Lint c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+SEVERE	?	main	2016-09-27T20:04:03.061Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 org.javacs.ShowMessageException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 	at org.javacs.ShowMessageException.create(ShowMessageException.java:30)
 	at org.javacs.ShowMessageException.warning(ShowMessageException.java:21)
@@ -27,7 +27,7 @@ Caused by: org.javacs.NoJavaConfigException: Can't find configuration file for c
 	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:191)
 	... 13 more
 
-SEVERE	?	main	2016-09-27T20:00:26.843Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+SEVERE	?	main	2016-09-27T20:04:06.383Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -51,7 +51,7 @@ org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Bab
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
 
-SEVERE	?	main	2016-09-27T20:00:27.147Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+SEVERE	?	main	2016-09-27T20:04:58.454Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -75,42 +75,18 @@ org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Bab
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
 
-INFO	?	main	2016-09-27T20:00:32.080Z	org.javacs.JavaLanguageServer#doLint	Lint c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-SEVERE	?	main	2016-09-27T20:00:32.083Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-org.javacs.ShowMessageException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-	at org.javacs.ShowMessageException.create(ShowMessageException.java:30)
-	at org.javacs.ShowMessageException.warning(ShowMessageException.java:21)
-	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:194)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
-	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
-	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
-	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
-	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
-	at org.javacs.Main.run(Main.java:150)
-	at org.javacs.Main.main(Main.java:69)
-Caused by: org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
-	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:301)
-	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:29)
-	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:191)
-	... 13 more
-
-SEVERE	?	main	2016-09-27T20:00:38.702Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+SEVERE	?	main	2016-09-27T20:04:58.769Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
-	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:225)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
 	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
@@ -123,14 +99,18 @@ org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Bab
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
 
-SEVERE	?	main	2016-09-27T20:00:38.706Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
+SEVERE	?	main	2016-09-27T20:04:59.368Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
-	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:225)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
 	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
@@ -143,14 +123,18 @@ org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Bab
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
 
-INFO	?	main	2016-09-27T20:00:42.125Z	org.javacs.JavaLanguageServer#doLint	Lint c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-SEVERE	?	main	2016-09-27T20:00:42.125Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-org.javacs.ShowMessageException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
-	at org.javacs.ShowMessageException.create(ShowMessageException.java:30)
-	at org.javacs.ShowMessageException.warning(ShowMessageException.java:21)
-	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:194)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+SEVERE	?	main	2016-09-27T20:05:00.068Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
 	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
@@ -162,22 +146,230 @@ org.javacs.ShowMessageException: Can't find configuration file for c:\Users\Baba
 	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
-Caused by: org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\com\teamTunde\Treet.java
+
+SEVERE	?	main	2016-09-27T20:05:00.393Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:02.298Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:02.964Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:05.754Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:06.054Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:06.957Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:07.261Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:07.882Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:09.098Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.autocomplete(JavaLanguageServer.java:966)
+	at org.javacs.JavaLanguageServer$1.completion(JavaLanguageServer.java:106)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:126)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+INFO	?	main	2016-09-27T20:05:12.901Z	org.javacs.JavaLanguageServer#doLint	Lint c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+SEVERE	?	main	2016-09-27T20:05:12.901Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
 	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:301)
 	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:29)
-	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:191)
-	... 13 more
-
-INFO	?	main	2016-09-27T20:00:45.945Z	org.javacs.JavaLanguageServer#doLint	Lint c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
-SEVERE	?	main	2016-09-27T20:00:45.945Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
-org.javacs.ShowMessageException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
-	at org.javacs.ShowMessageException.create(ShowMessageException.java:30)
-	at org.javacs.ShowMessageException.warning(ShowMessageException.java:21)
-	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:194)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at org.javacs.JavaLanguageServer$1.didSave(JavaLanguageServer.java:241)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:204)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
@@ -190,12 +382,124 @@ org.javacs.ShowMessageException: Can't find configuration file for c:\Users\Baba
 	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
-Caused by: org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+
+SEVERE	?	main	2016-09-27T20:05:14.099Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
-	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:301)
-	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:29)
-	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:191)
-	... 13 more
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:14.503Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:15.108Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:15.860Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+SEVERE	?	main	2016-09-27T20:05:16.926Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Users\Babatunde\Desktop\Online Lectures\TreeHouse\Notes_study_java\Treet\Example.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$22(JavaLanguageServer.java:453)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:453)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$31(JavaLanguageServer.java:740)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:739)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:888)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:116)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
 

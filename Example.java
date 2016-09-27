@@ -14,7 +14,7 @@ public class Example {
                              );
      
        /*2nd Sample treet */
-      Treet secondTreet = new Treet(  "Mad Max", 
+      Treet secondTreet = new Treet(  "Mad Max Payne", 
                                       "Zumber..  about me_ heheh!!" , 
                                        new Date(1473919826000L) 
                                    );

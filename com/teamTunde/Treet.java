@@ -9,6 +9,9 @@ public class Treet implements Comparable{
   private String mDescription;
   private Date mCreateDate;
   
+  /**
+   *  Non default contstrutor used here
+   * */
   public Treet(String author,String description, Date createDate ){
      mAuthor = author;
      mDescription = description;
